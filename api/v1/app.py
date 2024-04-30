@@ -3,8 +3,6 @@
 Creates Flask app
 Registers app_views blueprint to Flask app
 """
-
-
 from os import getenv
 from flask import Flask, jsonify
 from models import storage
