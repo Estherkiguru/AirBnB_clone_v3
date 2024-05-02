@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Creates Flask app
+"""Creates Flask app
 Registers app_views blueprint to Flask app
 """
 from os import getenv
