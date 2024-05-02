@@ -3,10 +3,10 @@
 create a route on the object app_views
 Returns: status 'OK'
 """
-
 from api.v1.views import app_views
 from flask import jsonify
 from models import storage
+
 
 @app_views.route('/status', methods=['GET'])
 def api_status():
@@ -15,6 +15,7 @@ def api_status():
     """
     status = {"status": "OK"}
     return jsonify(status)
+
 
 @app_views.route("/stats")
 def get_stats():
