@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-state objects for handling default RESTFul API actions
-"""
+"""state objects for handling default RESTFul API actions"""
 from flask import Flask, jsonify, abort, request
 from models.state import State
 from models import storage
