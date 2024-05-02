@@ -7,7 +7,7 @@ from api.v1.views import app_views
 
 
 @app_views.route('/states', strict_slashes=False)
-def get_states():
+def get_all_states():
     """
     Retrieves list of all state objects
     """
