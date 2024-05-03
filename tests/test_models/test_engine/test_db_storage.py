@@ -141,7 +141,7 @@ class TestDBStorage(unittest.TestCase):
         state_id = State(**state_stat)
         storage.new(state_id)
 
-        city_stat = {"name": "Mtwapa", "current_state_id": state_id.id}
+        city_stat = {"name": "Mtwapa", "state_id": state_id.id}
 
         city_id = City(**city_stat)
 
